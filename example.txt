@@ -1,0 +1,33 @@
+Example path through the site
+
+Login
+Password
+
+Use email to get to that student's school.
+Or go back to change school.
+
+First page 
+Majors - University Discussions - University Bulletin(?)
+
+Majors
+Choosing a Major
+Computer Science
+Biology
+...
+
+Computer Science
+Information for Incoming Freshmen
+General Resources and Tools
+Discussion
+Classes
+
+Classes
+CS127
+CS135
+Math Courses for CS
+
+
+
+
+
+
