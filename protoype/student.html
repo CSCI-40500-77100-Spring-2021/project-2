@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<style>
+body 
+{
+	background-color:rgba(140,85,120,0.4);
+}
+</style>
+
+<h1 style=  "font-size: 40px; text-align:center;">What kind of student are you?</h1>
+
+<div style="text-align:center">
+<button onclick="myFunction()"> INCOMING STUDENT</button>
+<button type="button" onclick = "document.location ='majors.html'">CURRENT STUDENT</button>
+<button onclick="myFunction()"> I ALREADY GRADUATED</button>
+</div>
+
+<br><br>
+<hr size ="10">
+<br>
+
+<h2 style= "font-size: 40px; text-align:center;">Interested in something else?</h2>
+<div style="text-align:center">
+<button onclick="metrics()"> SCHOOL METRICS</button>
+<button type="button" onclick = "document.location ='news.html'">UNIVERSITY NEWS</button>
+
+<!--
+<h3 style= "font-size:20px; text-align:left;">SCHOOL METRICS<h3>
+<p style = "text-align:left;">Current amount of students. Cost of attendance. Graduation rate.Current amount of faculty. Other regular information.
+<br>
+Government subsidies $/year. Scholarship distribution. Where does the money go.
+<br>
+Specialized statistics. Could be gathered from LinkedIn API. Rate of students going into industry of their major. Student enjoyment?
+<br>
+Highest paid professor. Lowest paid (amount and department). Average pay. Adjunct pay and hours. TA pay and hours.
+<br>
+Famous alumni, what they studied, where are they now.
+</p>
+-->
+
+<script>
+function myFunction() {
+  confirm("GOOD FOR YOU");
+}
+</script>
+
+<script>
+function metrics() {
+  confirm("Government subsidies $/year. Scholarship distribution. Where does the money go.Specialized statistics. Could be gathered from LinkedIn API. Rate of students going into industry of their major. Student enjoyment?Highest paid professor. Lowest paid (amount and department). Average pay. Adjunct pay and hours. TA pay and hours.Famous alumni, what they studied, where are they now.");
+}
+</script>
+
+
+
+</html>
