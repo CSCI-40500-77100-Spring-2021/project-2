@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<link rel="stylesheet" href="style.css">
+	<body>
+		<h1 style= "text-align: center">Register for cUNITY</h1>
+		<p>Explore all that our cUNITY community has to offer.</p>
+		
+		<h2>Create Account</h2>
+		<form method ="POST" action="login.html">
+			<label for="email">Email:</label><br>
+	  		<input type="text" id="email" name="email" required><br>
+	  		
+	  		<label for="username">Username:</label><br>
+	  		<input type="text" id="username" name="username" required><br>
+	  		
+	  		<label for="password">Password:</label><br>
+	  		<input type="password" id="pwd" name="pwd" required><br>
+	  		
+	  		<label for="confirm_password">Confirm Password:</label><br>
+	  		<input type="password" id="conpwd" name="pwd" required><br>
+	  		
+	  		<a href="colleges.html">
+	  		<button type="submit" onclick="return clicked();">Create Account</button>
+	  		</a>
+
+		</form>
+		<br>
+
+		<p>Already have a cUNITY account? Log In here.</p>
+		<a href="login.html">
+	  		<button type="submit">Go To Log In</button>
+	  	</a>
+
+	  	<script>
+	  	function clicked() 
+	  	{
+	  		var email_check = document.getElementById("email");
+	  		var user_check = document.getElementById("username");
+	  		var pwd_check = document.getElementById("pwd");
+	  		var conpwd_check = document.getElementById("conpwd");
+	  		//console.log(email_check.value);
+	  		if (email_check.value === "" || user_check.value === "" || pwd_check.value === "" || conpwd_check.value === "")
+	  		{
+	  			//console.log("email empty");
+	  			return confirm('Account Creation Unsuccessful. Please Fill Out All Forms.');
+	  		}
+	  		if (pwd_check.value != conpwd_check.value)
+	  		{
+	  			return confirm('Account Creation Unsuccessful. Passwords Do Not Match.');
+	  		}
+	  		//document.getElementById("submit").disabled = false;
+    		return confirm('Account Successfully Created. You will be logged in.');
+		}
+		</script>
+
+	</body>
+
+</html>
+
