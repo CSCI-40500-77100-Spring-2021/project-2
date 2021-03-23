@@ -1,0 +1,102 @@
+body { 
+  font-family: 'open sans'; 
+  color: #333; 
+} 
+
+.classp{
+    font-size: 17px;
+}
+
+ul.a {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+}
+
+ul.b { list-style-type: circle; 
+       font-size:20px;
+}
+
+.majorlink{
+    text-decoration: none; 
+    color:#2f5687;
+}
+
+#top{
+    position: fixed; 
+    top: 0;
+    width: 100%; 
+} 
+
+.navh {
+  float: left;
+  border-right:1px solid #333;
+}
+#major {
+    border-right:none;
+    margin-top:15px;
+    margin-left: 20px;
+}
+
+.navh:last-child {
+  border-right: none;
+}
+
+.navh a {
+  display: block;
+  color:#333;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.sidenav {
+  height: 100%;
+  border-radius: 25px;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  background-color: #333;
+  overflow-x: hidden;
+  padding-top: 35px;
+  padding-right: 20px;
+  top: 70px;
+}
+
+.sidenav a {
+  padding: 6px 8px 25px 16px;
+  text-decoration: none;
+  font-size: 22px;
+  text-align: center;
+  color: white;
+  display: block;
+}
+
+.d a:hover {
+    text-shadow: 1px 1px 3px #b5cef7;
+}
+
+.e a:hover {
+    color: #a6c8ff;
+}
+
+.c a:hover {
+    color: #a6c8ff;
+}
+
+.sidenav a:hover {
+  color: #a6c8ff;
+}
+
+.main {
+  margin-left: 160px; 
+  font-size: 28px; 
+  padding: 40px 10px 20px 40px;
+}
+
+@media screen and (max-height: 450px) { 
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
