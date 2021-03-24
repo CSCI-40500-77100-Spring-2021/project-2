@@ -1,3 +1,3 @@
-To run the protoype, open file /prototype.
-Download the files into one location.
-Open *** cUNITY_home.html *** through the browser of your choice.
+A Simple Forum Page without functionality
+
+<img src='forum.gif' title='Walkthrough' width='' alt='Walkthrough' />
