@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="majorstyle.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <div id="header">
+    <div id="top">
+      <ul class="a">
+          <li class="navh c"><a href="#home"><b>cUNITY</b></a></li>
+          <li class="navh c" id="major">Computer Science<li>
+          <li class="navh c" style="float:right"><a href="#signout">Sign Out</a></li>
+          <li class="navh c" style="float:right"><a href="#majors">Majors</a></li>
+        </ul>
+        <hr style="margin: 0px;">
+    </div>
+    <div class="sidenav">
+      <a href="info.html">Info</a>
+      <a href="discussion.html">Discussion</a>
+      <a href="classes.html">Classes</a>
+    </div>
+  </div>
+
+  <div class="main">
+    <h3>CS Discussion Forums</h3>
+    <hr>
+  </div>
+
+ <div id="forum"> 
+      <h1>Student Community</h1>
+    <div class="p-body-header">
+        <div class="p-title">
+            <h1 class="p-title-value">cUNITY Forums | CS Community</h1>
+            <div class="p-title-action">
+                <button class="button" onclick="myFunction()">
+                    <span class="button-text">Create Post</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div id="searchbox" class="search-box">
+      <div>
+          <select name="" id="">
+              <option value="math">Create New Forum</option>
+              <option value="computer science">Broad CS Disccusion</option>
+              <option value="math">General Questions from Incoming Students</option>
+          </select>
+          <label id="write" for="post">Write:</label>
+          <textarea id="post" name="post" rows="4" cols="50">
+          </textarea>
+          <button class="button button-text" onclick="myFunction1()">Post</button>
+          
+      </div>
+  </div>
+
+    <div class="block-container">
+        <h2 class="block-header">Computer Science General Forums</h2>
+    </div>
+    <div></div>
+    <div class="block-body">
+        <div class="node">
+            <div class="node-body">
+                <div class="node-main">
+                    <h3 class="node-title d"><a href="#broaddiscussion" style="color: #333; text-decoration: none;">Broad CS Discussion</a></h3>  
+                    <div class="node-description">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Nam dapibus sem sit amet sapien laoreet tincidunt. 
+                        Fusce et tellus magna. Ut mollis leo vitae cursus finibus. 
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="node">
+            <div class="node-body">
+                <div class="node-main">
+                    <h3 class="node-title d"><a href="#incomingstudentQ" style="color: #333; text-decoration: none;">General Questions from Incoming Students</a></h3>
+                    <div class="node-description">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Nam dapibus sem sit amet sapien laoreet tincidunt. 
+                        Fusce et tellus magna. Ut mollis leo vitae cursus finibus. 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+ </div>
+
+
+ <script>
+  function myFunction() {
+    var x = document.getElementById("searchbox");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    }
+  }
+
+  function myFunction1() {
+    confirm("Post has been added to forum");
+  }
+  </script>
+
+
+  
+</body>
+</html>
