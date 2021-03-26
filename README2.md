@@ -36,4 +36,11 @@
     | Authentication | User Storage | Search |
     | :-: | :-: | :-: |
    
+   
+  - **Technologies** 
+  - Database:
+  - Platform: Web-based platform
+  - Server: Cloud 
+  - Open Source: APIs (for information on schools, courses, etc)
+  - Development Tools: React js (frontend)
     
