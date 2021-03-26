@@ -38,7 +38,7 @@
    
    
 - **Technologies** 
-  - Database:
+  - Database: NoSQL (MongoDB most likely)
   - Platform: Web-based platform
   - Server: Cloud 
   - Open Source: APIs (for information on schools, courses, etc)
