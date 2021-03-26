@@ -37,7 +37,7 @@
     | :-: | :-: | :-: |
    
    
-  - **Technologies** 
+- **Technologies** 
   - Database:
   - Platform: Web-based platform
   - Server: Cloud 
