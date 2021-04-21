@@ -17,7 +17,7 @@ class Body extends Component {
                     <div className="card-body">
                         <h5 onClick={this.handleClick} style={{cursor: 'pointer'}}>
                             <Link to="/major" className="nav-link">Majors</Link></h5>
-                        <p className="card-text">Get more informations about your major!</p>
+                        <p className="card-text">Get more information about your major!</p>
                     </div>  
                 </div>
                 <div className="card">
