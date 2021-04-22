@@ -2,6 +2,10 @@
 
 cUNITY aims to be a centralized platform of university information as well as providing the means of meaningful interactions between the 3 categories of students- incoming, current, and alumni. The goal of cUNITY is to allow each group to gain knowledge that would enhance their college experience.
 
+# Docker
+- A docker to handle the installation of these libraries and install postgres can be obtained with:
+  - docker run -dp 3000:3000 getting-started
+
 #### To run project on your computer:
 
 1. Download file to your preferred location.
