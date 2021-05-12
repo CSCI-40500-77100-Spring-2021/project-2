@@ -3,7 +3,11 @@ import PropTypes from "prop-types";
 import { connect } from "react-redux";
 import { logoutUser } from "../../actions/authActions";
 
-class Dashboard extends Component {
+class Dashboard extends Component {   
+    handleclick() {
+        this.props.history.push("/comment");
+    } 
+
     onLogoutClick = e => {
         e.preventDefault();
         this.props.logoutUser();
@@ -21,6 +25,7 @@ class Dashboard extends Component {
                         <span style={{ fontFamily: "monospace" }}>cUNITY</span> app 👏
                     </p>
                     </h4>
+                   
                     <button
                     style={{
                         width: "150px",
@@ -33,6 +38,20 @@ class Dashboard extends Component {
                     >
                     Logout
                     </button>
+                    <br/>
+                    <button
+                    style={{
+                        width: "150px",
+                        borderRadius: "3px",
+                        letterSpacing: "1.5px",
+                        marginTop: "1rem"
+                    }}
+                    onClick={() => this.handleclick()}
+                    className="btn btn-large waves-effect waves-light hoverable blue accent-3"
+                    >
+                    Continue
+                    </button>
+
                 </div>
                 </div>
             </div>
@@ -48,6 +67,7 @@ Dashboard.propTypes = {
 const mapStateToProps = state => ({
     auth: state.auth
 });
+
 
 export default connect(
     mapStateToProps,
